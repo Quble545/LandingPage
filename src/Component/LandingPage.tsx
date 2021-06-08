@@ -1,6 +1,8 @@
 import Header from "./Header"
-import Body from "./Body";
+import UpperBody from "./UpperBody";
+import MidleBody from "./MidleBody"
 import {Container, makeStyles} from "@material-ui/core"
+import MiddleBody from "./MidleBody";
 
 const useStyles = makeStyles(() => ({
     body: {
@@ -15,7 +17,8 @@ const LandingPage = () => {
     <main className={classes.body}>
         <Container maxWidth="xl">
             <Header />
-            <Body />
+            <UpperBody />
+            <MiddleBody />
         </Container>
     </main>
     );

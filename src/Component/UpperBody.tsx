@@ -11,33 +11,32 @@ const useStyles = makeStyles((theme) => ({
     fontWeight: 'bold',
   },
 
-   headerText2: {
+  headerText2: {
     fontWeight: 'bold',
-    color: "#69b3b8"
+    color: '#69b3b8',
   },
 
   icon1: {
     height: 75,
     width: 75,
-    backgroundColor:"#434343",
-    color:"#FFFFFF",
-    border:"solid 10px #434343",
-    borderRadius: "50%",
-    marginTop:40,
-    marginBottom: 30    
+    backgroundColor: '#434343',
+    color: '#FFFFFF',
+    border: 'solid 10px #434343',
+    borderRadius: '50%',
+    marginTop: 40,
+    marginBottom: 30,
   },
 
   icon2: {
     height: 75,
     width: 75,
-    backgroundColor:"#69b3b8",
-    color:"#FFFFFF",
-    border:"solid 10px #69b3b8",
-    borderRadius: "100%",
-    marginTop:40,
-    marginBottom: 30    
+    backgroundColor: '#69b3b8',
+    color: '#FFFFFF',
+    border: 'solid 10px #69b3b8',
+    borderRadius: '100%',
+    marginTop: 40,
+    marginBottom: 30,
   },
-
 }))
 
 const Body = () => {
@@ -77,8 +76,8 @@ const Body = () => {
           <Grid item xl={3} md={4} sm={12} xs={12}>
             <Container maxWidth="sm">
               <Typography align="center" gutterBottom>
-                  <Adjust className={classes.icon2} fontSize="small" />
-                </Typography>
+                <Adjust className={classes.icon2} fontSize="small" />
+              </Typography>
 
               <Typography
                 className={classes.headerText2}
